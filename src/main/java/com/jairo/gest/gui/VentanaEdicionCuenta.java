@@ -229,7 +229,7 @@ public class VentanaEdicionCuenta extends javax.swing.JFrame {
         verContLbl.setBackground(new java.awt.Color(255, 255, 255));
         verContLbl.setFont(new java.awt.Font("Inter", 0, 14)); // NOI18N
         verContLbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        verContLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ojito.png"))); // NOI18N
+        verContLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Desktop\\Universidad\\SCESI\\Seguridad\\GestorContraseñas\\Proyecto\\GestorContraseñas\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\ojito.png")); // NOI18N
         verContLbl.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 verContLblMouseClicked(evt);
