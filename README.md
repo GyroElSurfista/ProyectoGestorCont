@@ -32,3 +32,11 @@ el almacenamiento de contraseñas.
 ## Cifrado de datos
 Para el cifrado de la información de los usuarios se empleó el estándar de encriptación avanzado AES con una llave de 256 bits.
 Por otro lado, se empleó el esquema base64 para facilitar el almacenamiento del texto cifrado en la base de datos.
+
+## Requisitos para la ejecución del programa
+- Gestor de bases de datos Sql Server.
+
+## Instrucciones para ejecutar el programa
+- Descargar el archivo bd.bacpac y gest.jar del siguiente repositorio:
+
+- Importar la base de en 
