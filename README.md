@@ -34,9 +34,13 @@ Para el cifrado de la información de los usuarios se empleó el estándar de en
 Por otro lado, se empleó el esquema base64 para facilitar el almacenamiento del texto cifrado en la base de datos.
 
 ## Requisitos para la ejecución del programa
-- Gestor de bases de datos Sql Server.
+- Gestor de bases de datos Microsoft SQL Server.
 
 ## Instrucciones para ejecutar el programa
 - Descargar el archivo bd.bacpac y gest.jar del siguiente repositorio:
+  [Recursos para la ejecución](https://github.com/GyroElSurfista/RecursosEjecGestCont)
 
-- Importar la base de en 
+- Importar la base de datos en Microsoft SQL Server haciendo uso del archivo bd.bacpac como se muestra en el siguiente tutorial:
+  [Tutorial para importar la base de datos a Microsoft SQL Server](https://youtu.be/XLzV_gagkZc?t=182)
+
+- Iniciar el ejecutable gest.jar
