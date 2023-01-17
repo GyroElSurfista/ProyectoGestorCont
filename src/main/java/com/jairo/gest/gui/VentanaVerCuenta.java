@@ -167,7 +167,7 @@ public class VentanaVerCuenta extends javax.swing.JFrame {
         ojoPanel.setBackground(new java.awt.Color(255, 255, 255));
 
         ojo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ojo.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\ojito.png")); // NOI18N
+        ojo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ojito.png"))); // NOI18N
         ojo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ojo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
@@ -193,7 +193,7 @@ public class VentanaVerCuenta extends javax.swing.JFrame {
 
         ojo1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         ojo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        ojo1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\copiar.png")); // NOI18N
+        ojo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/copiar.png"))); // NOI18N
         ojo1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ojo1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -291,7 +291,7 @@ public class VentanaVerCuenta extends javax.swing.JFrame {
 
         usrInfoLbl.setFont(new java.awt.Font("Inter", 0, 12)); // NOI18N
         usrInfoLbl.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        usrInfoLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\User.png")); // NOI18N
+        usrInfoLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/User.png"))); // NOI18N
         usrInfoLbl.setText("Usuario");
 
         javax.swing.GroupLayout usrInfoLayout = new javax.swing.GroupLayout(usrInfo);
