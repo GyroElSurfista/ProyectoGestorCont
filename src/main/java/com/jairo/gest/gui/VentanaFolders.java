@@ -59,8 +59,6 @@ public class VentanaFolders extends javax.swing.JFrame {
         bar = new javax.swing.JPanel();
         exitB = new javax.swing.JPanel();
         exitLbl = new javax.swing.JLabel();
-        reloadPanel = new javax.swing.JPanel();
-        reloadLbl = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -135,7 +133,7 @@ public class VentanaFolders extends javax.swing.JFrame {
 
         usrInfoLbl.setFont(new java.awt.Font("Inter", 0, 12)); // NOI18N
         usrInfoLbl.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        usrInfoLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\User.png")); // NOI18N
+        usrInfoLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Desktop\\Universidad\\SCESI\\Seguridad\\GestorContraseñas\\Proyecto\\GestorContraseñas\\src\\main\\resources\\User.png")); // NOI18N
         usrInfoLbl.setText("Usuario");
 
         javax.swing.GroupLayout usrInfoLayout = new javax.swing.GroupLayout(usrInfo);
@@ -329,35 +327,12 @@ public class VentanaFolders extends javax.swing.JFrame {
             .addComponent(exitLbl, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
         );
 
-        reloadPanel.setBackground(new java.awt.Color(203, 182, 184));
-
-        reloadLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\Reload.png")); // NOI18N
-        reloadLbl.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        reloadLbl.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                reloadLblMouseClicked(evt);
-            }
-        });
-
-        javax.swing.GroupLayout reloadPanelLayout = new javax.swing.GroupLayout(reloadPanel);
-        reloadPanel.setLayout(reloadPanelLayout);
-        reloadPanelLayout.setHorizontalGroup(
-            reloadPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(reloadLbl, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-        );
-        reloadPanelLayout.setVerticalGroup(
-            reloadPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(reloadLbl, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-        );
-
         javax.swing.GroupLayout barLayout = new javax.swing.GroupLayout(bar);
         bar.setLayout(barLayout);
         barLayout.setHorizontalGroup(
             barLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, barLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(reloadPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
                 .addComponent(exitB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -365,9 +340,7 @@ public class VentanaFolders extends javax.swing.JFrame {
             barLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(barLayout.createSequentialGroup()
                 .addGap(0, 8, Short.MAX_VALUE)
-                .addGroup(barLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(exitB, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(reloadPanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addComponent(exitB, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
@@ -455,10 +428,6 @@ public class VentanaFolders extends javax.swing.JFrame {
         ventana = new VentanaCreaFolder(usuario,this);
         ventana.setVisible(true);
     }//GEN-LAST:event_crearFoldLblMouseClicked
-
-    private void reloadLblMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_reloadLblMouseClicked
-        setFolders();
-    }//GEN-LAST:event_reloadLblMouseClicked
 
     private void elimFoldLblMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_elimFoldLblMouseClicked
         Folder f;
@@ -578,8 +547,6 @@ public class VentanaFolders extends javax.swing.JFrame {
     private javax.swing.JLabel foldersLbl;
     private javax.swing.JScrollPane foldersSP;
     private javax.swing.JTable foldersTab;
-    private javax.swing.JLabel reloadLbl;
-    private javax.swing.JPanel reloadPanel;
     private javax.swing.JPanel usrInfo;
     private javax.swing.JLabel usrInfoLbl;
     private javax.swing.JPanel verFoldBtn;
