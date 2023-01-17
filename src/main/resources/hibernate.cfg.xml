@@ -5,13 +5,13 @@
 <hibernate-configuration>
   <session-factory>
     <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-    <property name="connection.url">jdbc:sqlserver://localhost\GESTCONT:1433;databaseName=gestorContrasenias</property>
+    <property name="connection.url">jdbc:sqlserver://localhost:1433</property>
     <property name="connection.username">gestCont</property>
     <property name="connection.password">gestContConQuesoDeCabra123</property>
 
     <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
     <property name="connection.trustServerCertificate">true</property>
     <property name="show_sql">false</property>
-
+    <property name="connection.loginTimeout">10</property>
   </session-factory>
 </hibernate-configuration>
