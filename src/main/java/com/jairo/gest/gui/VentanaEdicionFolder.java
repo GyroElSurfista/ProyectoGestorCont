@@ -160,7 +160,7 @@ public class VentanaEdicionFolder extends javax.swing.JFrame {
 
         usrInfoLbl.setFont(new java.awt.Font("Inter", 0, 12)); // NOI18N
         usrInfoLbl.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        usrInfoLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\User.png")); // NOI18N
+        usrInfoLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/User.png"))); // NOI18N
         usrInfoLbl.setText("Usuario");
 
         javax.swing.GroupLayout usrInfoLayout = new javax.swing.GroupLayout(usrInfo);

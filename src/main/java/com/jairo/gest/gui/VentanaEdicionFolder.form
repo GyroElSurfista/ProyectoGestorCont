@@ -287,7 +287,7 @@
                     </Property>
                     <Property name="horizontalAlignment" type="int" value="2"/>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\Jairo\Documents\NetBeansProjects\GestorContrasenias\src\main\java\com\jairo\gest\gui\assets\User.png"/>
+                      <Image iconType="3" name="/User.png"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Usuario"/>
                   </Properties>
