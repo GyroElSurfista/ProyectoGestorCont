@@ -193,7 +193,7 @@ public class VentanaCreaCuenta extends javax.swing.JFrame {
         genContLbl.setBackground(new java.awt.Color(255, 255, 255));
         genContLbl.setFont(new java.awt.Font("Inter", 0, 14)); // NOI18N
         genContLbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        genContLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\Reload.png")); // NOI18N
+        genContLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Reload.png"))); // NOI18N
         genContLbl.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 genContLblMouseClicked(evt);
@@ -231,7 +231,7 @@ public class VentanaCreaCuenta extends javax.swing.JFrame {
         verContLbl.setBackground(new java.awt.Color(255, 255, 255));
         verContLbl.setFont(new java.awt.Font("Inter", 0, 14)); // NOI18N
         verContLbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        verContLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\ojito.png")); // NOI18N
+        verContLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ojito.png"))); // NOI18N
         verContLbl.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 verContLblMouseClicked(evt);
@@ -355,7 +355,7 @@ public class VentanaCreaCuenta extends javax.swing.JFrame {
 
         usrInfoLbl.setFont(new java.awt.Font("Inter", 0, 12)); // NOI18N
         usrInfoLbl.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        usrInfoLbl.setIcon(new javax.swing.ImageIcon("C:\\Users\\Jairo\\Documents\\NetBeansProjects\\GestorContrasenias\\src\\main\\java\\com\\jairo\\gest\\gui\\assets\\User.png")); // NOI18N
+        usrInfoLbl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/User.png"))); // NOI18N
         usrInfoLbl.setText("Usuario");
 
         javax.swing.GroupLayout usrInfoLayout = new javax.swing.GroupLayout(usrInfo);
