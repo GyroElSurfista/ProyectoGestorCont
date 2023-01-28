@@ -23,6 +23,7 @@ public class Encriptador {
     public Encriptador(){
         AliceContext aliceContext = new AliceContextBuilder()
         .setAlgorithm(AliceContext.Algorithm.AES)
+        .setKeyLength(AliceContext.KeyLength.BITS_256)
         .setMode(AliceContext.Mode.CTR)
         .setPbkdf(AliceContext.Pbkdf.PBKDF_2_WITH_HMAC_SHA_256)
         .setIvLength(16)
