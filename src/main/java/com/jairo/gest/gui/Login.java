@@ -458,10 +458,11 @@ public class Login extends javax.swing.JFrame {
 
     private void contTextBoxFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_contTextBoxFocusGained
         
-        if(String.valueOf(contTextBox.getPassword()).equals("Contraseña maestra")){}
+        if(String.valueOf(contTextBox.getPassword()).equals("Contraseña maestra")){
+            contTextBox.setText("");
+            contTextBox.setForeground(Color.BLACK);
+        }
         
-        contTextBox.setText("");
-        contTextBox.setForeground(Color.BLACK);
         if(String.valueOf(userTextBox.getText()).equals("Usuario")||String.valueOf(userTextBox.getText()).equals("")){
            userTextBox.setText("Usuario");
            userTextBox.setForeground(Color.gray);
